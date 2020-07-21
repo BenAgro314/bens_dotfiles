@@ -87,11 +87,6 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -117,17 +112,12 @@ if ! shopt -oq posix; then
 fi
 
 source /opt/ros/melodic/setup.bash
-#source ~/jackal_ws/devel/setup.bash
 source ~/catkin_ws/devel/setup.bash
 
-
 export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:~/catkin_ws/devel/lib
-
 export GAZEBO_MODEL_PATH=~/catkin_ws/src/myhal_simulator/models:${GAZEBO_MODEL_PATH}
 export GAZEBO_RESOURCE_PATH=~/catkin_ws/src/myhal_simulator/models:${GAZEBO_RESOURCE_PATH}
-
 export ROSPORT=11311
-
 export EDITOR=vim
 
 export NVM_DIR="$HOME/.nvm"
