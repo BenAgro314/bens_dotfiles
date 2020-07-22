@@ -164,3 +164,6 @@ if !isdirectory($HOME."/.vim/undo-dir")
 endif
 set undodir=~/.vim/undo-dir
 set undofile
+
+
+autocmd BufRead, BufNewFile *.md setlocal spell spelllang=en_us
