@@ -18,6 +18,7 @@ set number
 set relativenumber
 
 set laststatus=2
+"autocmd BufEnter * silent! lcd %:p:h
 
 " The backspace key has slightly unintuitive behavior by default. For example,
 " by default, you can't backspace before the insertion point set with 'i'.
@@ -129,6 +130,7 @@ call plug#begin()
 Plug 'tpope/vim-surround'
 Plug 'kien/ctrlp.vim'
 Plug 'itchyny/lightline.vim'
+Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
 
