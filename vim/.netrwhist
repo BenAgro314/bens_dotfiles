@@ -1,8 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/default'
 let g:netrw_dirhist_2='/home/default/catkin_ws/scripts'
 let g:netrw_dirhist_3='/home/default/catkin_ws/src/kinect_v2/urdf'
 let g:netrw_dirhist_4='/home/default/catkin_ws/src/jackal_velodyne/urdf'
 let g:netrw_dirhist_5='/home/default/dotfiles'
 let g:netrw_dirhist_6='/home/default/dotfiles/.vim'
+let g:netrw_dirhist_7='/home/default/dotfiles/vim'
