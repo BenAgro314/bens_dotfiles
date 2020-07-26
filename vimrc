@@ -117,7 +117,8 @@ set undofile
 autocmd BufRead, BufNewFile *.md setlocal spell spelllang=en_us
 set background=dark
 set t_Co=256
-:colorscheme jellybeans
+":colorscheme jellybeans
+:colorscheme atom-dark-256
 
 nnoremap H gT
 nnoremap L gt
