@@ -1,0 +1,7 @@
+pane	0	0	:catkin_ws	1	:*	0	:/home/default/catkin_ws	0	bash	:
+pane	0	0	:catkin_ws	1	:*	1	:/home/default/catkin_ws/scripts	0	bash	:
+pane	0	0	:catkin_ws	1	:*	2	:/home/default	1	bash	:
+pane	0	1	:src	0	:-	0	:/home/default/catkin_ws	1	vim	:vim
+window	0	0	1	:*	e3bb,204x54,0,0{102x54,0,0,18,101x54,103,0[101x28,103,0,19,101x25,103,29,15]}
+window	0	1	0	:-	bea3,204x54,0,0,6
+state	0	
