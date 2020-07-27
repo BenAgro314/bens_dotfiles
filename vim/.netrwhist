@@ -1,2 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/default/Myhal_Simulation/simulated_runs/2020-07-26-09-19-28/logs-2020-07-26-09-19-28/videos/static'

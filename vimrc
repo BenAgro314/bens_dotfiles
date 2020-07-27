@@ -132,6 +132,7 @@ Plug 'tpope/vim-surround'
 Plug 'kien/ctrlp.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'preservim/nerdtree'
 
 call plug#end()
 
@@ -148,3 +149,6 @@ let g:ctrlp_custom_ignore = {
     \ 'file': '\v\.(exe|so|dll)$',
     \ 'link': 'some_bad_symbolic_links',
     \ }
+
+
+map <C-e> :NERDTreeToggle<CR>
