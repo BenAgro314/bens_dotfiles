@@ -1,0 +1,11 @@
+pane	0	0	:catkin_ws	0	:	0	:/home/default/catkin_ws	1	bash	:/bin/bash ./master.sh -t E_tour -m
+pane	0	0	:catkin_ws	0	:	1	:/home/default/catkin_ws	0	bash	:
+pane	0	0	:catkin_ws	0	:	2	:/home/default/catkin_ws	0	bash	:
+pane	0	1	:src	1	:*	0	:/home/default/catkin_ws	1	bash	:
+pane	0	2	:obelisk	0	:-	0	:/home/default	1	ssh	:ssh obelisk
+pane	0	2	:obelisk	0	:-	1	:/home/default	0	ssh	:ssh obelisk
+pane	0	2	:obelisk	0	:-	2	:/home/default	0	ssh	:ssh obelisk
+window	0	0	0	:	4368,204x54,0,0{102x54,0,0,1,101x54,103,0[101x27,103,0,5,101x26,103,28,9]}
+window	0	1	1	:*	bea0,204x54,0,0,3
+window	0	2	0	:-	8374,204x54,0,0{102x54,0,0,4,101x54,103,0[101x27,103,0,7,101x26,103,28,8]}
+state	0	

@@ -1,4 +1,3 @@
-alias docker='sudo docker'
 alias cw='cd ~/catkin_ws'
 alias v='vim'
 alias ll='ls -l'

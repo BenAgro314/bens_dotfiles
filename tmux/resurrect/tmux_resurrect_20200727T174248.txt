@@ -1,0 +1,6 @@
+pane	0	0	:catkin_ws	1	:*	0	:/home/default/catkin_ws	1	bash	:/bin/bash ./master.sh -t short_test -m
+pane	0	0	:catkin_ws	1	:*	1	:/home/default/catkin_ws/scripts	0	bash	:
+pane	0	1	:src	0	:-	0	:/home/default/catkin_ws	1	vim	:vim
+window	0	0	1	:*	55c8,204x54,0,0{102x54,0,0,13,101x54,103,0,15}
+window	0	1	0	:-	bea0,204x54,0,0,3
+state	0	
